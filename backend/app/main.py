@@ -14,6 +14,9 @@ import app.verticals.dummy.graph
 import app.verticals.meeting_action_items.tools
 import app.verticals.meeting_action_items.graph
 
+import app.verticals.contract_tracking.tools
+import app.verticals.contract_tracking.graph
+
 # Section 6.3: "A shared function, called on a timer via APScheduler,
 # scans each vertical's staging folder..." Interval is configurable
 # since this is a dev/demo project, not production — default kept
