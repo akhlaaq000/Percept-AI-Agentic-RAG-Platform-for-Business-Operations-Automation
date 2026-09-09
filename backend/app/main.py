@@ -19,6 +19,9 @@ import app.verticals.contract_tracking.tools
 import app.verticals.contract_tracking.graph
 from app.verticals.contract_tracking.scheduler import run_scheduled_contract_ingestion
 
+import app.verticals.internal_mobility.tools
+import app.verticals.internal_mobility.graph
+
 # Section 6.3: "A shared function, called on a timer via APScheduler,
 # scans each vertical's staging folder..." Interval is configurable
 # since this is a dev/demo project, not production — default kept
