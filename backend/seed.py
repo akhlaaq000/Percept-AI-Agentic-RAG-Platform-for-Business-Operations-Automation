@@ -18,6 +18,7 @@ import shutil
 from pathlib import Path
 
 from app.core.ingestion import ingest_staging_folder, STAGING_ROOT
+from app.verticals.contract_tracking.seed_local import seed_contract_tracking
 from app.verticals.internal_mobility.seed_local import seed_internal_mobility
 from app.verticals.meeting_action_items.seed_local import seed_meeting_action_items
 
@@ -28,12 +29,15 @@ from app.verticals.meeting_action_items.seed_local import seed_meeting_action_it
 # owner once their own vertical is built).
 SEED_DATA_ROOT = Path(__file__).parent / "seed_data"
 
-# internal_mobility is seeded by
-# app.verticals.internal_mobility.seed_local.seed_internal_mobility()
-# (dedicated structured seeding — it must NOT go through the generic
-# copy-to-staging path), so it is intentionally absent from
-# VERTICALS_TO_SEED, which only drives the generic staging-folder
-# path.
+# internal_mobility is handled by seed_internal_mobility() (dedicated
+# structured seeding — it must NOT go through the generic copy-to-
+# staging path, see that function's docstring), so it is intentionally
+# absent from VERTICALS_TO_SEED, which only drives the generic
+# staging-folder path. contract_tracking is likewise handled by its
+# own seed_contract_tracking() (Section 6.4: scheduled ingestion IS
+# the analysis trigger, so seeding must run the real extraction
+# pipeline, not generic chunk-and-embed) — see
+# app.verticals.contract_tracking.seed_local.
 VERTICALS_TO_SEED = [
     {"vertical": "dummy", "source_type": "postmortem"},
     {"vertical": "post_incident", "source_type": "postmortem"},
@@ -77,6 +81,11 @@ def main():
 
     print("\ninternal_mobility:")
     seed_internal_mobility()
+
+    # contract_tracking is likewise a byproduct of real extraction
+    # (Section 6.4) — seeded by running that same pipeline.
+    print("\ncontract_tracking:")
+    seed_contract_tracking()
 
     print("\nSeeding complete.")
 
