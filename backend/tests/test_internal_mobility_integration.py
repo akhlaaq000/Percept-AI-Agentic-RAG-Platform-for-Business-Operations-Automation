@@ -348,3 +348,38 @@ def test_internal_mobility_logs_single_retrieval_decision_with_real_results(monk
     assert detail["num_results"] >= 1
     assert detail["top_score"] is not None
     assert detail["top_score"] > 0
+
+
+def test_internal_mobility_sanitizes_recipient_email(monkeypatch):
+    emp_id = _seed_engineer(name="O'Brien  García")
+
+    fake_llm = _fake_llm_scripted(
+        requirements={"department": "Engineering", "min_experience": 3,
+                      "query_text": "backend engineer"},
+        ranking_content=json.dumps({
+            "summary": "One strong candidate.",
+            "candidates": [
+                {"employee_id": emp_id, "rank": 1,
+                 "rationale": "Deep backend fit.",
+                 "skill_gaps": [], "confidence": 0.95},
+            ],
+        }),
+    )
+    monkeypatch.setattr("app.verticals.internal_mobility.graph.call_llm", fake_llm)
+
+    output = run_internal_mobility_vertical(AgentRunInput(
+        vertical="internal_mobility",
+        trigger_type=TriggerType.UPLOAD,
+        input_payload={"text": "Staff Backend Engineer."},
+    ))
+
+    assert output.status == "completed"
+    conn = get_connection()
+    try:
+        with conn.cursor() as cur:
+            cur.execute("SELECT recipient FROM notifications WHERE run_id = %s;", (output.run_id,))
+            note = cur.fetchone()
+    finally:
+        conn.close()
+    assert note is not None
+    assert note["recipient"] == "o.brien.garcia@example.com"

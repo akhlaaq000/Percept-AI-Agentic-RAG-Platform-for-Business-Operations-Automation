@@ -28,6 +28,9 @@ without an alert. notify_candidate() reuses this helper with
 notified=True so the DB write logic lives in one place.
 """
 
+import re
+import unicodedata
+
 from app.core.tool_registry import tool
 from app.core.db import get_connection
 from app.core.logging_service import create_notification
@@ -44,11 +47,17 @@ def _employee_email(employee_id: str) -> str | None:
 
     if row is None or not row["name"]:
         return None
-    return row["name"].strip().lower().replace(" ", ".") + "@example.com"
+    name = unicodedata.normalize("NFKD", row["name"])
+    name = "".join(ch for ch in name if not unicodedata.combining(ch))
+    local = re.sub(r"[^a-z0-9]+", ".", name.lower())
+    return local.strip(".") + "@example.com"
 
 
 def _resolve_recipient(employee_id: str) -> str:
-    return _employee_email(employee_id) or employee_id
+    email = _employee_email(employee_id)
+    if email is None:
+        raise ValueError(f"cannot derive a recipient email for employee {employee_id}")
+    return email
 
 
 def record_role_match(

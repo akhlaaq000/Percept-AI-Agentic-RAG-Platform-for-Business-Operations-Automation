@@ -93,6 +93,7 @@ def seed_internal_mobility() -> None:
         conn.close()
 
     # ---- Phase 2: employee_profile embeddings (source_id-link racked to employees) ----
+    embedded = 0
     for emp in manifest["employees"]:
         emp_id = name_to_id[emp["name"]]
 
@@ -116,6 +117,7 @@ def seed_internal_mobility() -> None:
         if already_embedded:
             continue
 
+        embedded += 1
         upsert_embedding(
             vertical="internal_mobility",
             source_type="employee_profile",
@@ -126,9 +128,6 @@ def seed_internal_mobility() -> None:
                 "department": emp["department"],
             },
         )
-    embedded = sum(
-        1 for emp in manifest["employees"] if emp["name"] in name_to_id
-    )
     print(f"  Embedded {embedded} employee profile(s) into the KB.")
 
     # ---- Phase 3: roles (relational only, never embedded) ----
