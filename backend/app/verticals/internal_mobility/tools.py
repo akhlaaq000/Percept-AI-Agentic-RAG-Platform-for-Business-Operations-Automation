@@ -33,6 +33,24 @@ from app.core.db import get_connection
 from app.core.logging_service import create_notification
 
 
+def _employee_email(employee_id: str) -> str | None:
+    conn = get_connection()
+    try:
+        with conn.cursor() as cur:
+            cur.execute("SELECT name FROM employees WHERE id = %s;", (employee_id,))
+            row = cur.fetchone()
+    finally:
+        conn.close()
+
+    if row is None or not row["name"]:
+        return None
+    return row["name"].strip().lower().replace(" ", ".") + "@example.com"
+
+
+def _resolve_recipient(employee_id: str) -> str:
+    return _employee_email(employee_id) or employee_id
+
+
 def record_role_match(
     run_id: str,
     role_id: str,
@@ -197,9 +215,10 @@ def notify_candidate(
         confidence=confidence,
         notified=True,
     )
+    recipient = _resolve_recipient(employee_id)
     notification_id = create_notification(
         run_id=run_id,
-        recipient=employee_id,
+        recipient=recipient,
         message=message,
     )
     return {
@@ -207,5 +226,6 @@ def notify_candidate(
         "match_id": match_id,
         "employee_id": employee_id,
         "role_id": role_id,
+        "recipient": recipient,
         "notification_id": notification_id,
     }

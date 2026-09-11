@@ -155,7 +155,7 @@ def test_notify_candidate_creates_match_and_notification(employee_id, role_id):
     assert match["notified"] is True
 
     assert note is not None
-    assert note["recipient"] == employee_id
+    assert note["recipient"] == "ayesha.rao@example.com"
     assert note["message"] == "Great fit for Staff Backend Engineer — apply!"
 
 

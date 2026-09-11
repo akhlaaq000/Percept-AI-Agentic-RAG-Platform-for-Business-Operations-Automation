@@ -135,7 +135,7 @@ def test_internal_mobility_notifies_confident_available_candidate(monkeypatch):
     assert match is not None
     assert match["notified"] is True
     assert note is not None
-    assert note["recipient"] == emp_id
+    assert note["recipient"] == "ayesha.rao@example.com"
 
 
 def test_internal_mobility_leaves_low_confidence_candidate_unnotified(monkeypatch):
