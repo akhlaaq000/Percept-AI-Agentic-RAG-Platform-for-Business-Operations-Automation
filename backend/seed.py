@@ -37,6 +37,7 @@ SEED_DATA_ROOT = Path(__file__).parent / "seed_data"
 # staging-folder path.
 VERTICALS_TO_SEED = [
     {"vertical": "dummy", "source_type": "postmortem"},
+    {"vertical": "post_incident", "source_type": "postmortem"},
 ]
 
 
