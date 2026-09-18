@@ -25,14 +25,17 @@ def get_connection(register_pgvector_types: bool = True, autocommit: bool = Fals
     a fresh database BEFORE the `vector` extension exists — otherwise
     registration itself raises "vector type not found in the database".
 
-    autocommit=True is for the same bootstrap paths: register_vector()
-    runs a query, and psycopg2 lazily opens a transaction on the first
-    statement, after which flipping autocommit raises
-    "set_session cannot be used inside a transaction". Setting it at
-    connect time avoids that and lets DDL (CREATE EXTENSION / schema.sql)
-    apply without an explicit transaction.
+    autocommit=True is for the same bootstrap paths: autocommit is NOT a
+    psycopg2.connect() keyword — it must be set on the connection object.
+    Do it BEFORE any query or register_vector(), because psycopg2 lazily
+    opens a transaction on the first statement and refuses to flip
+    autocommit while one is open ("set_session cannot be used inside a
+    transaction"). With autocommit active, DDL (CREATE EXTENSION /
+    schema.sql) applies without an explicit transaction.
     """
-    conn = psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor, autocommit=autocommit)
+    conn = psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
+    if autocommit:
+        conn.autocommit = True
     if register_pgvector_types:
         register_vector(conn)
     return conn

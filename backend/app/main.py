@@ -122,7 +122,12 @@ async def lifespan(app: FastAPI):
         finally:
             conn.close()
         print("[AUTO_SETUP] Seeding internal_mobility (V2)...")
-        seed_internal_mobility()
+        try:
+            seed_internal_mobility()
+        except Exception as exc:
+            # Never let optional demo seeding take down the whole service:
+            # log loudly so it's diagnosable, but boot anyway.
+            print(f"[AUTO_SETUP] WARNING: internal_mobility seeding failed: {exc}")
 
     scheduler.add_job(
         run_scheduled_ingestion,
