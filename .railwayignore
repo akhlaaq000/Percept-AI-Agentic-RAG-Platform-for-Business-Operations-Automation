@@ -1,0 +1,22 @@
+# Local frontend deps/build — rebuilt inside the container.
+frontend/node_modules
+frontend/dist
+
+# VCS
+.git
+
+# Python artifacts
+**/__pycache__
+*.pyc
+.venv/
+backend/.venv/
+
+# Secrets / local env
+.env
+**/.env
+
+# Runtime upload/staging
+uploads
+
+# opencode sessions
+.opencode/

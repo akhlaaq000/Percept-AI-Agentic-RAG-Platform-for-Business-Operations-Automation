@@ -108,18 +108,20 @@ async def lifespan(app: FastAPI):
 
         conn = get_connection()
         try:
+            # Set autocommit BEFORE any query — psycopg2 refuses to flip
+            # autocommit while a transaction is open, and plain connects
+            # lazily start one on the first statement (incl. the probe).
+            conn.autocommit = True
             with conn.cursor() as cur:
                 cur.execute(
                     "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'documents');"
                 )
                 row = cur.fetchone()
                 schema_exists = bool(row and row["exists"])
-            if not schema_exists:
-                schema_path = Path(__file__).resolve().parents[1] / "db" / "schema.sql"
-                conn.autocommit = True
-                with conn.cursor() as cur:
+                if not schema_exists:
+                    schema_path = Path(__file__).resolve().parents[1] / "db" / "schema.sql"
                     cur.execute(schema_path.read_text(encoding="utf-8"))
-                print("[AUTO_SETUP] Applied database schema.")
+                    print("[AUTO_SETUP] Applied database schema.")
         finally:
             conn.close()
         print("[AUTO_SETUP] Seeding internal_mobility (V2)...")
