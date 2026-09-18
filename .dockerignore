@@ -1,0 +1,23 @@
+# VCS & CI
+.git
+.github
+.gitignore
+
+# Local frontend build artifacts — must NOT be copied into the image:
+# `COPY frontend/ ./` would otherwise overwrite the clean `npm ci`
+# install with a host-specific node_modules and obfuscate dist/.
+frontend/node_modules
+frontend/dist
+
+# Backend Python artifacts
+**/__pycache__
+*.pyc
+.venv/
+backend/.venv/
+
+# Secrets / env files
+.env
+**/.env
+
+# Runtime upload/staging dirs (created fresh in the container)
+uploads

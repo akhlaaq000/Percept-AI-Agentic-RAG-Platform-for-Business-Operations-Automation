@@ -1,0 +1,87 @@
+Job Title: Full Stack Engineer
+Company: Daemo AI
+Location: San Francisco, CA 94110
+Salary: $90,000 - $170,000 a year
+
+### Full Stack Engineer
+
+\\San Francisco based start-up\\
+
+Delamain AI is an enterprise intelligence platform serving federal and state government affairs and policy advisory firms (trade, defense, financial services). This engineer owns the full stack — from real-time data pipelines and LLM summarization engines to the user-facing web portal.
+
+Required Skills
+
+### Languages
+
+\\TypeScript\\ (Expert) — all production frontend/backend code
+
+\\Python\\ (Proficient) — pipelines, scraping, LLM orchestration
+
+\\SQL / MongoDB\\ (Proficient) — BigQuery ingestion, aggregation pipelines
+
+\\Bash/Shell\\ — EC2 ops, cron, deployment scripts
+
+### Frameworks &amp; Infrastructure
+
+\\Next.js\\ (App Router), React, Tailwind CSS / shadcn/ui, NextAuth.js
+
+\\Node.js\\ + Server Actions , OpenAI-compatible API (streaming, tool calling)
+
+\\MongoDB Atlas\\ — document modeling, Atlas Search
+
+\\Docker / Docker Compose\\ — all services containerized
+
+\\Linux / tmux\\ — SSH, process management, EC2 service administration
+
+### Engineering Capabilities
+
+\\Full stack ownership\\: data model → API → UI → deploy (no tier handoff)
+
+\\Async/concurrent systems\\ &amp; data pipeline architecture (ETL/ELT, deduplication)
+
+\\Web scraping at scale\\ — anti-bot evasion, government/political sources Playwright,BeautifulSoup)
+
+\\Real-time streaming\\ — SSE/WebSockets for agent responses
+
+\\Production debugging\\ across multi-stage pipelines
+
+\\Multi-tenant security\\ — data isolation, access control, audit logging
+
+### AI / LLM
+
+\\LLM API integration\\ — chat completions, tool/function calling, streaming, context management
+
+\\Prompt engineering\\ for summarization, personas, research agents
+
+\\Agent architecture\\ — multi-step tool use, memory patterns, RAG
+
+\\AI output evaluation\\ — hallucination detection, guardrails
+
+### Preferred Skills
+
+\\Rust\\ — Core system runs on Rust
+
+\\AWS Bedrock\\ — Claude 3.x families; cost/quality/latency tradeoffs AWS (EC2, S3), Cloudflare (DNS, tunnels), CI/CD (GitHub Actions)
+
+\\Google BigQuery\\ — large-scale parallel data ingestionRedis — caching, job queuing, pub/sub
+
+\\Signal CLI\\ — secure messaging integration on Linux EC2
+
+\\Multi-provider LLM routing\\ (Fireworks AI or similar)
+
+\\Embedding + vector search\\ (Voyage AI or equivalent)
+
+\\Automated briefing pipelines\\ — scheduled ingest → summarize → deliver
+
+### Domain Knowledge(Nice-to-have)
+
+U.S. federal &amp; state government affairs, policy, and legislative process
+
+Policy domains: trade, defense, financial services
+
+Pay: $90,000.00 - $170,000.00 per year
+
+Benefits:
+ Visa sponsorship
+
+Work Location: In person

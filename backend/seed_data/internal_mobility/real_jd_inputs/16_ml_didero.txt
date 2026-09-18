@@ -1,0 +1,98 @@
+Job Title: Applied AI Engineer
+Company: Didero
+Location: New York, NY
+Salary: $200,000 - $300,000 a year
+
+At Didero, we’re building the autonomous supply chain, starting with agentic supplier management.
+
+Global trade has never been more complex or more critical. Teams are underwater, reacting to a flood of challenges — from geopolitical risk to tariffs. Didero helps by automating time-intensive workflows with AI agents, deploying cutting-edge technology into one of the world’s most vital domains.
+
+We’re backed by some of the world’s best venture funds and leading figures across AI, supply chain, and enterprise software.
+
+About the role
+
+We're hiring an AI Applied Engineer to sit at the intersection of machine learning, agentic systems, and production software. You'll own the design and development of AI-powered workflows that automate high-stakes supply chain operations — building systems that actually think, act, and learn
+
+What You’ll Do
+
+Design and ship production AI agents that automate supplier management workflows
+
+Own the full AI stack: model selection, prompt engineering, tool use, RAG pipelines, evals, and reliability.
+
+Architect agentic systems that integrate with communication platforms, ERPs, and third-party APIs.
+
+Drive quality through rapid iteration, build fast without shipping fragile systems.
+
+Collaborate with product and domain experts to translate messy real-world workflows into clean, scalable AI solutions.
+
+Shape how we approach applied AI at the company level, your opinions on architecture and methodology will matter.
+
+You’ll be successful in this role if you…
+
+Have hands-on experience building and deploying LLM-based applications or AI agents in production.
+
+Think in systems; you understand how prompts, retrieval, memory, and tool calls interact at scale.
+
+Care about outcomes, not just outputs, you build evals and measure what matters.
+
+Are comfortable in ambiguous, fast-moving environments with short feedback loops.
+
+Write clean, maintainable code across the backend and can collaborate on frontend integrations.
+
+Qualifications
+
+8+ years as an autonomous, resourceful engineer building and scaling real-world applications.
+
+Proven experience with LLMs, agentic frameworks (Pydantic, LangChain, LlamaIndex, custom), and AI workflow tooling.
+
+Strong Python (Django or FastAPI) and familiarity with TypeScript / React for integration work.
+
+Deep understanding of modern AI primitives: function calling, RAG, embeddings, structured outputs, evals.
+
+Strong communication skills, able to bridge technical and non-technical stakeholders effectively.
+
+Bonus Points For:
+
+Startup experience; founding engineer or early team member at a high-growth company.
+
+Experience with B2B SaaS workflow automation and complex enterprise integrations.
+
+Background in supply chain, procurement, or logistics tech.
+
+Designing highly scalable and distributed AI systems.
+
+Experience with a strongly typed language like C++, Java, Rust, Go
+
+Has a strong understanding of system design, object oriented programming and good programming fundamentals.
+
+Tech Stack
+
+Django · Python · React · TypeScript
+
+What We Value
+
+We make the world feel smaller - We support each other and break down boundaries, both internally and for our customers
+
+We build supply chain magic - We push the boundaries of what technology can do and go above and beyond for our users
+
+We are lifelong learners - We move fast, embrace failure, and give feedback generously
+
+We show up - We’re scrappy entrepreneurs, no job is beneath us
+
+We BELIEVE! - We’re building a great, enduring company and we have fun doing it.
+
+What We Offer:
+
+Competitive compensation and equity
+
+Medical, dental, and vision insurance
+
+Unlimited PTO — we trust you to take the time you need
+
+Monthly wellness stipend via ClassPass
+
+Tech equipment for your setup
+
+Catered lunches (for those in the office)
+
+Compensation Range: $200K - $300K

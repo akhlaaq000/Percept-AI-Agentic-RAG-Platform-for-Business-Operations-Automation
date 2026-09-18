@@ -1,0 +1,82 @@
+Job Title: Frontend Engineer, New Products
+Company: EvenUp
+Location: San Francisco, CA
+Salary: $161,500 - $218,500 a year
+
+EvenUp is on a mission to close the justice gap using technology and AI. We empower personal injury lawyers and victims to get the justice they deserve. Our products enable law firms to secure faster settlements, higher payouts, and better outcomes for victims injured through no fault of their own in vehicle collisions, accidents, natural disasters, and more.
+
+We are one of the fastest-growing vertical SaaS companies in history, and we are just getting started. EvenUp is backed by top VCs, including Bessemer Venture Partners, Bain Capital Ventures, SignalFire, and Lightspeed. We are looking to expand our team with talented, driven, and collaborative individuals who seek to have a lasting impact. Learn more at www.evenuplaw.com.
+
+In the past year, our engineering and data science team grew from 40 to 100+ team members and we rolled out infrastructure updates, new products, and updates to existing workflows - combining data, ML frontend and backend work. The next 12 months are very exciting for us; we expect the technical team to double as we deliver on a roadmap to handle 10x our current volume and build new products.
+
+As a Software Engineer on our New Products team, you’ll be responsible for helping build and launch brand new products that directly impact our customers' workflows - which in turn has the opportunity to impact millions of lives in the personal injury space.
+
+This is a hybrid role with the expectation of working at least 3 days a week from our downtown San Francisco hub.
+
+What you’ll do:
+
+Build impactful technology: You will build first-of-a-kind technology that will transform an analog industry to improve the lives of millions of injury victims that got their lives turned upside down at no fault of their own.
+
+Have immediate impact in a small and tightly-knit team: be a key part of building the foundational blocks of their software and the team culture. Start shipping production code in less than two weeks!
+
+Be a core part of our engineering team: Be a key part of building the foundational blocks of EvenUp's software and the team culture. Build and deploy and work on our core software product, whereby you’ll tackle hard problems, explore and deliver solutions while working with key people across the organization.
+
+Work with a world-class team: Our team has deep expertise in technology, machine learning, law, and finance, combining experiences from careers at Google, Uber, Waymo, Quora, Vimeo, Blizzard, and more.
+
+Learn new technologies from the best: Our team emphasizes a culture of continual learning and you will have opportunities to work on projects in machine learning, data engineering, back-end, front-end, DevOps.
+
+Work with our tech-stack: Python, Typescript, React, Postgres, Kubernetes, Elasticsearch.
+
+What we look for:
+
+5-10+ years of experience with backend or frontend engineering, working with relational databases and/or other database technologies - we're hiring frontend, backend, and full-stack engineers for this team!
+
+Have several years of industry experience building high-quality software, shipping production-ready code and infrastructure.
+
+Ability to communicate technical ideas or issues in easy-to-understand and actionable terms.
+
+Learn quickly and are seeking opportunities to work cross-functionally (including data engineering & DevOps) and with a diverse group of people.
+
+Experience owning a project from start to finish and loves to drive a project across the finish line.
+
+Demonstrated success in mentoring and upleveling teammates.
+
+Engineering excellence - you’ve helped build what “great” looks like at scale (both product + team culture).
+
+Kubernetes experience is a plus!
+
+Notice to Candidates:
+
+EvenUp has been made aware of fraudulent job postings and unaffiliated third parties posing as our recruiting team – please know that we have no affiliation or connection to these situations. We only post open roles on our career page (evenuplaw.com/careers) or reputable job boards like our official LinkedIn or Indeed pages, and all official EvenUp recruitment emails will come from the domains @evenuplaw.com, @evenup.ai, @ext-evenuplaw.com, no-reply@ashbyhq.com or no‑reply@canditech.io email addresses.
+
+To ensure fairness and proper consideration, we do not accept resumes or expressions of interest via email or social media messages. If you’re interested in a role, please submit your application directly through our careers page.
+
+If you receive communication from someone you believe is impersonating EvenUp, please report it to us at talent-ops-team@evenuplaw.com. Examples of fraudulent domains include “careers-evenuplaw.com” and “careers-evenuplaws.com”.
+
+Benefits & Perks:
+
+As part of our total rewards package, we offer attractive benefits and perks to our employees, including:
+
+Choice of medical, dental, and vision insurance plans for you and your family.
+
+Additional insurance coverage options for life, accident, or critical illness.
+
+Flexible paid time off, sick leave, short-term and long-term disability.
+
+10 US observed holidays, and Canadian statutory holidays by province.
+
+A home office stipend.
+
+401(k) for US-based employees and RRSP for Canada-based employees.
+
+Paid parental leave.
+
+A local in-person meet-up program.
+
+Hubs in San Francisco and Toronto.
+
+Please note the above benefits & perks are for full-time employees
+
+EvenUp is an equal opportunity employer. We are committed to diversity and inclusion in our company. We do not discriminate based on race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+
+Compensation Range: $161,500 - $218,500

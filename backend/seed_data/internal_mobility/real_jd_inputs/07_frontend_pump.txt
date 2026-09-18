@@ -1,0 +1,67 @@
+Job Title: Frontend Engineer
+Company: Pump
+Location: San Francisco, CA
+Salary: $120,000 - $200,000 a year
+
+About Pump.co
+
+Location: San Francisco, CA (Onsite 5 days a week)
+
+Compensation: $120K–$200K salary + 0.1%–0.6% equity
+
+Pump is on a mission to radically simplify AWS cost optimization for teams building in the cloud. We use group buying and AI to help startups save like big tech — often reducing AWS bills by ~60%, completely for free.
+
+As a Frontend Engineer, you’ll play a foundational role in shaping both our product and our company. You’ll work closely with the founding team, contribute across the stack (especially frontend), and help define our technical direction and culture from the ground up.
+
+This is a rare chance to join something early and make a real impact — we hope Pump becomes a career-defining chapter for everyone who joins.
+
+What You’ll Do
+
+Build intuitive, performant, and scalable interfaces that bring our vision to life
+Contribute across the stack, with a strong emphasis on frontend architecture and best practices
+Work closely with engineers, designers, and founders to ship quickly and iterate based on feedback
+Help define and execute our technical roadmap — balancing technical debt and innovation
+Invent, improve, and maintain development processes, tools, and workflows
+Prototype often and move fast — while maintaining high product quality and UX standards
+
+Qualifications
+
+BS or MS in Computer Science, Engineering, or a related field
+3+ years of experience as a full stack engineer, with a focus on building scalable and reliable web applications
+Preferably has experience at a Series B+ to pre-IPO company
+Strong proficiency in at least one modern frontend framework — React and Next.js preferred
+Strong proficiency in Python, and familiarity with at least one Python backend framework (e.g. Django, FastAPI, Flask)
+Experience with AWS — knowledge of cloud infrastructure and cost/billing concepts is a plus
+Experience with SQL or NoSQL databases
+Experience with Docker; container orchestration systems like Kubernetes are a plus
+Strong communication skills and ability to collaborate effectively with cross-functional teams
+Enjoys prototyping and experimenting quickly to validate ideas and iterate fast
+
+Required Skills
+
+Deep expertise in JavaScript/TypeScript and frontend development
+Strong architectural understanding of scalable frontend systems
+Experience integrating with backend APIs and working with real-time or dynamic data
+Strong product sense and attention to detail — you care how things look and feel
+Ability to thrive in a fast-paced, ambiguous startup environment and take initiative
+Ability to work onsite 5 days a week
+
+Bonus Points For
+
+Experience at early-stage startups or fast-growth environments (Series A–C, pre-IPO)
+Passion for developer tools, infrastructure, or cloud platforms
+Familiarity with Kubernetes or modern DevOps workflows
+An opinionated eye for clean, simple design and thoughtful UI
+
+Benefits
+
+Comprehensive healthcare and dental coverage for you
+401(k) plan
+Generous PTO: 13 accrued days, plus company shutdown December 24—January 1st
+Free lunch & dinner at the office
+Annual company-paid retreats
+Developmental bonuses: support for professional development opportunities tied to cloud and related fields
+
+Compensation
+
+$120,000 - $200,000 USD

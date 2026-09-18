@@ -1,8 +1,11 @@
 import os
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from apscheduler.schedulers.background import BackgroundScheduler
 
 from app.api import agent_runs, escalations, notifications, admin, evaluation, submissions, meeting_action_items
@@ -86,6 +89,42 @@ def run_scheduled_ingestion() -> None:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    if os.getenv("AUTO_SETUP", "").lower() in {"1", "true", "yes"}:
+        from app.core.db import get_connection
+        from app.verticals.internal_mobility.seed_local import seed_internal_mobility
+
+        # Bootstrap: a fresh database lacks the `vector` extension, and
+        # get_connection()'s register_vector() needs it to merely connect.
+        # Create it on a bare connection first; schema.sql (which repeats
+        # CREATE EXTENSION IF NOT EXISTS) then applies cleanly below.
+        conn = get_connection(register_pgvector_types=False)
+        try:
+            conn.autocommit = True
+            with conn.cursor() as cur:
+                cur.execute("CREATE EXTENSION IF NOT EXISTS vector;")
+            print("[AUTO_SETUP] Ensured pgvector extension.")
+        finally:
+            conn.close()
+
+        conn = get_connection()
+        try:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'documents');"
+                )
+                row = cur.fetchone()
+                schema_exists = bool(row and row["exists"])
+            if not schema_exists:
+                schema_path = Path(__file__).resolve().parents[1] / "db" / "schema.sql"
+                conn.autocommit = True
+                with conn.cursor() as cur:
+                    cur.execute(schema_path.read_text(encoding="utf-8"))
+                print("[AUTO_SETUP] Applied database schema.")
+        finally:
+            conn.close()
+        print("[AUTO_SETUP] Seeding internal_mobility (V2)...")
+        seed_internal_mobility()
+
     scheduler.add_job(
         run_scheduled_ingestion,
         "interval",
@@ -105,9 +144,15 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Agentic RAG Platform - Backend", lifespan=lifespan)
 
+CORS_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -121,6 +166,23 @@ app.include_router(evaluation.router)
 app.include_router(submissions.router)
 app.include_router(meeting_action_items.router)
 
+# Built frontend (dist/), baked into app/static at container build time by
+# Dockerfile.web. Absent in dev/source-tree runs, so local and docker-compose
+# behavior is unchanged — the SPA catch-all is only added when the files exist.
+# Registered LAST so it can never shadow the /health or API routes above.
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+if STATIC_DIR.is_dir():
+    app.mount("/assets", StaticFiles(directory=STATIC_DIR / "assets"), name="assets")
+
+    @app.get("/{full_path:path}")
+    def spa(full_path: str):
+        base = STATIC_DIR.resolve()
+        resolved = (base / full_path).resolve()
+        if full_path and resolved.is_file() and resolved.is_relative_to(base):
+            return FileResponse(resolved)
+        return FileResponse(base / "index.html")

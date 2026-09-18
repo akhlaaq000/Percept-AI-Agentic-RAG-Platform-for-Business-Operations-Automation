@@ -1,0 +1,63 @@
+Job Title: Generative AI Data Engineer III
+Company: Deloitte
+Location: New York, NY
+Salary: $131,000 - $218,300 a year
+
+Our Deloitte AI & Engineering team works to transform technology platforms, drive innovation, and help make a significant impact on our clients' success. You'll work alongside talented professionals reimagining and reengineering operations and processes that are critical to businesses. Your contributions can help clients improve financial performance, accelerate new digital ventures, and fuel growth through innovation.
+
+Work you'll do
+
+As an AI and Data Science Engineer III on the team, you will be responsible for:
+
+Design, build, test, and deploy machine learning and artificial intelligence solutions for business and client use cases
+Develop and maintain data pipelines, model training workflows, and production-grade application components that support AI-enabled products
+Analyze structured and unstructured data to identify patterns, generate insights, and support model development and validation
+Collaborate with engineers, data scientists, product stakeholders, and business teams to translate requirements into technical solutions
+Monitor model and application performance, troubleshoot issues, and implement enhancements to improve accuracy, reliability, and scalability
+
+A successful candidate would possess these skills:
+
+Ability to work independently and collaborate as part of a team
+Effective written and verbal communication skills
+Meticulous attention to detail and quality of work product
+Ability to build and sustain professional relationships
+Ability to lead projects or workstreams
+Ability to manage and prioritize multiple tasks in a fast-paced and dynamic environment
+Strong interpersonal skills and professional demeanor
+Ability to meet deadlines
+Ability to provide clear guidance to others
+
+The team
+
+Deloitte's Government & Public Services (GPS) practice - our people, ideas, technology and outcomes - is designed for impact. Serving federal, state, & local government clients as well as public higher education institutions, our team of professionals brings fresh perspective to help clients anticipate disruption, reimagine the possible, and fulfill their mission promise.
+
+Our AI & Data offering provides a full spectrum of solutions for designing, developing, and operating cutting-edge Data and AI platforms, products, insights, and services. Our offerings help clients innovate, enhance and operate their data, AI, and analytics capabilities, ensuring they can mature and scale effectively with organizational intelligence programs and differentiated strategies to win in their chosen markets.
+
+Qualifications
+
+Required:
+
+Bachelor's degree in Computer Science, Data Science, Engineering, Mathematics, Statistics, or a related quantitative field
+5+ years of professional experience
+3+ years of experience designing, developing, or deploying machine learning, artificial intelligence, or advanced analytics solutions
+3+ years of experience programming in Python, Pyspark, Pytorch, Tensorflow
+3+ years of experience developing algorithms, model selection, training/validation/optimization, and evaluation at scale
+1+ years of technology consulting experience in the Federal Health space
+1+ years of experience working with AI technologies such as Gemini, Anthropic, OpenAI
+Active Certification/Advanced certification in Python, Pyspark, Pytorch, Tensorflow
+Ability to travel 20%, on average, based on the work you do and the clients and industries/sectors you serve.
+Ability to obtain and maintain a US government security clearance
+Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.
+
+Preferred:
+
+Master's degree in Computer Science, Data Science, Engineering, Mathematics, Statistics, or a related quantitative field
+Active US Government security clearance
+2+ years of experience deploying machine learning models into production environments
+2+ years of experience working with large language models, natural language processing, or generative artificial intelligence solutions
+2+ years of experience using containerization and orchestration tools such as Docker or Kubernetes
+1+ years of experience supporting model monitoring, model governance, or machine learning operations processes
+
+The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $131,000 to $218,300.
+
+You may also be eligible to participate in a discretionary annual incentive program, subject to the rules governing the program, whereby an award, if any, depends on various factors, including, without limitation, individual and organizational performance.

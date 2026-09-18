@@ -1,0 +1,81 @@
+Job Title: Staff Backend Software Engineer
+Company: Lumafield
+Location: San Francisco, CA
+Salary: $180,000 - $225,000 a year
+
+About Lumafield:
+
+Lumafield was founded in 2019 to upgrade manufacturing.
+
+We are engineers with deep experience across the product development cycle, from initial ideas to shipping hardware, across industries and specializations, who became frustrated by the cost and complexity of modern manufacturing. So we decided to upgrade it.
+
+Engineers make million-dollar decisions every day, and they need tools that give them the greatest possible insight into their products. By offering unprecedented visibility into products, as well as AI-driven tools that highlight problems and generate quantitative data, Lumafield promises to revolutionize the way complex products are created, manufactured, and used across industries. We started with industrial CT scanning, which for us was the most valuable but underutilized tool in the manufacturing toolbox, enabling us to rapidly inspect essential components non-destructively.
+
+We rebuilt the whole system, from X-ray capture, to computer vision analysis, to web-based collaboration, to the entire business model, making the most advanced manufacturing tech more accessible to every industry. Our company, like our platform, is designed for upgrades. We’re building for greater intelligence, autonomy, and speed. For deeper vision, operational excellence, and powerful insights. And then we'll upgrade it all again.
+
+Lumafield is headquartered in Cambridge, MA, and has an office in San Francisco, CA.
+
+About the role:
+
+On Lumafield’s Backend team, you work on the core of our cloud platform from REST APIs through to massively parallelized data processing pipelines operating on our X-Ray and CT image data. We leverage Python in order to move quickly but ensure that we’re getting the most out of the language through usage of powerful frameworks and parallelism concepts. Our backend team also owns their code all the way through deployment; you’ll work to build your code into Docker containers and deploy them to our different environments including cloud Kubernetes clusters and on-premises servers.
+
+What you'll do:
+
+Own backend architecture for cloud software supporting Neptune, Triton, and Voyager (services, APIs, persistence, async processing, storage and compute integrations).
+
+Design, build, and operate scalable Python backends (Django / DRF), Celery pipelines, and REST APIs with strong reliability, performance, and observability.
+
+Lead complex, data-heavy workflows: uploads, project/scan lifecycle, recipe automation, task orchestration, and algorithm integration.
+
+Architect AWS usage for backends: S3, RDS/Aurora/Postgres, IAM, networking; design SageMaker and related ML job flows (invocation, data paths, security, failure modes, cost) with ML and platform partners.
+
+Coach and mentor engineering team members across the organization in architecture best practices and principles.
+
+Collaborate closely with product managers and engineering leadership to align technical objectives with business deliverables.
+
+Get your hands dirty and build – expect to be hands-on and building regularly
+
+About you:
+Bachelor’s Degree in Engineering or a related field
+
+10+ years of experience developing software, mostly backend
+
+Expert Python; 5+ years shipping production backends (Django / DRF a strong fit).
+
+Deep PostgreSQL and AWS data/storage (S3, RDS/Aurora); solid IAM and VPC-aware patterns
+
+5+ years production AWS; practical SageMaker (or similar) for services you orchestrate, not only notebooks.
+
+Async systems: Celery + Redis or equivalent—queues, retries, idempotency, backpressure, prod debugging
+
+2+ years of startup experience
+
+Owned architecture for complex, cloud-hosted, data-heavy products.
+
+Demonstrated ability to coach and mentor engineering peers on architectural principles.
+
+Experience designing for and complying with SOC2, ISO27001, ITAR, and other security compliance frameworks and standards
+
+Bonus points for:
+Extensive experience with high-traffic, data-intensive web applications.
+
+Django + Celery at meaningful scale.
+
+Deep expertise in Kubernetes and AWS architecture, security, and optimization.
+
+High-throughput or large-payload APIs and pipelines.
+
+Regulated or export-controlled environments
+
+The base salary range listed here represents the anticipated low and high end of the salary range for this position. Actual salaries may vary and may be above or below the range based on various factors including but not limited to work location, experience, and performance. All full time employees receive an equity grant.
+We are unable to sponsor or take over sponsorship of employment visas at this time. All applicants must be legally authorized to work in the United States without current or future sponsorship.
+
+Lumafield offers both competitive cash and equity compensation, as well as a health & wellness stipend, 401k, parental leave, flexible PTO, commuter benefits, company wide events and more!
+
+Lumafield is committed to building a team that represents a variety of backgrounds, perspectives, and skills, because the more inclusive we are, the better our work will be. Do you feel like your skills don’t meet every single requirement listed? We encourage you to apply anyway – If you’re excited about our technology, the opportunity, and are eager to learn more we’d love to hear from you!
+
+In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on: race, color, ancestry, national origin, religion, age, gender, marital domestic partner status, sexual orientation, gender identity, disability, genetic information or veteran status.
+
+Reach out if you want to be a part of what we are building.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

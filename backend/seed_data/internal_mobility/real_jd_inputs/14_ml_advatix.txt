@@ -1,0 +1,92 @@
+Job Title: Machine Learning Engineer
+Company: Advatix, Inc.
+Location: San Mateo, CA 94401
+Salary: $110,000 - $165,000 a year
+
+Job Title: Machine Learning Engineer / Research Engineer
+Pay: $110,000 – $165,000 Base Salary + Equity
+Shift: N/A
+Location: San Mateo, CA (Peninsula) – Onsite Preferred
+Schedule: Full time, Permanent Role
+Visa Sponsorship: Not Available
+Relocation Assistance: Not Available
+
+Job Overview
+
+About the Role
+We are looking for a highly skilled Machine Learning Engineer / Research Engineer to join our founding team and help develop intelligent systems that transform how hardware and mechanical engineers design products.
+This is a unique opportunity to work at the intersection of cutting-edge machine learning research and real-world engineering applications. You'll collaborate directly with founders, engineers, and customers to design, train, deploy, and continuously improve machine learning systems that accelerate CAD workflows and hardware design.
+As one of the earliest ML hires, you will have significant ownership over technical direction, architecture decisions, and the long-term evolution of our AI platform.
+Key Responsibilities
+Machine Learning Research & Development
+Design, train, and optimize custom deep learning models that understand CAD workflows and generate intelligent next-step design recommendations.
+Develop novel machine learning approaches for geometry, design, and engineering-related datasets.
+Evaluate emerging research in areas such as sequence modeling, geometric deep learning, representation learning, and foundation models.
+Data & Model Infrastructure
+Build and maintain scalable Python-based training, evaluation, and experimentation pipelines.
+Transform complex, real-world CAD and geometry data into high-quality training datasets and signals.
+Implement robust offline and online evaluation frameworks to measure model performance and business impact.
+Production ML Systems
+Own the complete ML lifecycle from research and prototyping through deployment, monitoring, and optimization.
+Architect model-serving infrastructure and backend components that enable fast, reliable integration into CAD environments.
+Establish best practices for experimentation, logging, model versioning, and performance monitoring.
+Cross-Functional Collaboration
+Work closely with founders, mechanical engineers, hardware engineers, and early customers to understand workflows and translate them into ML solutions.
+Collaborate with backend engineers on APIs, infrastructure, data models, and platform scalability.
+Help define the long-term strategy for applying machine learning to hardware and CAD design.
+Required Qualifications
+Machine Learning Expertise
+4+ years of hands-on machine learning experience in industry, research, or a combination of both.
+Equivalent Master's or PhD research experience will be considered.
+Demonstrated success designing, training, improving, and deploying machine learning models—not simply utilizing hosted AI APIs.
+Deep Learning & Research
+Expert-level proficiency with PyTorch (preferred) or similar frameworks such as TensorFlow or JAX.
+Experience implementing custom architectures, loss functions, optimization methods, and training loops.
+Strong understanding of model evaluation, experimentation, and performance trade-offs.
+Software Engineering
+Strong Python programming skills with experience building production-ready systems.
+Ability to write clean, maintainable, and well-tested code with appropriate documentation and abstractions.
+Experience developing scalable ML infrastructure and backend services.
+Ownership & Execution
+Proven ability to independently drive projects from concept through deployment.
+Experience building end-to-end ML systems including data pipelines, experimentation frameworks, model training, deployment, and monitoring.
+Comfortable solving ambiguous, open-ended technical problems.
+Communication & Collaboration
+Excellent communication skills with the ability to explain technical concepts to both technical and non-technical stakeholders.
+Experience working cross-functionally with engineers, product teams, researchers, and customers.
+Startup Mindset
+Thrives in fast-paced, high-ownership environments.
+Comfortable wearing multiple hats across machine learning, research, backend engineering, and infrastructure.
+Preferred Qualifications
+Published research papers or meaningful open-source contributions demonstrating novel technical work.
+Experience with:
+CAD systems and workflows
+Computational geometry
+Computer graphics
+3D representations
+Robotics
+Familiarity with cloud ML infrastructure (AWS, GCP).
+Experience with backend frameworks such as FastAPI, Flask, or Django.
+Ideal Candidate
+You are a fundamentally strong machine learning builder who cares equally about theory and production. You enjoy reading research papers, developing novel approaches, and translating ideas into production systems that create measurable impact for users.
+You are excited about solving challenging problems in AI-powered engineering software and want to help build a category-defining product from the ground up.
+Must-Have Requirements
+Must be based in the United States and possess valid work authorization.
+Strong proficiency in Python and modern deep learning frameworks (PyTorch preferred).
+Demonstrated experience building and deploying custom machine learning models from scratch.
+Experience designing architectures, creating training pipelines, and shipping ML features to production.
+Minimum 4 years of relevant industry or equivalent academic experience.
+Benefits & Perks
+Competitive salary ($110,000 – $165,000)
+Meaningful equity ownership
+Comprehensive medical, dental, and vision insurance
+Catered team lunches at the San Mateo office
+Unlimited / flexible paid time off
+High-impact role within a YC-backed startup
+Direct collaboration with experienced founders and engineers
+Significant opportunities for growth, learning, and career advancement
+Opportunity to help define the future of AI-powered CAD and hardware design
+
+HRforGrowth is an extension of the Growth Catalyst Group (GCG), a partnership of companies with more than 65 years of operating experience and a history of successfully serving customers across industries and disciplines.
+GCG® is one of the world’s leading providers of business transformation solutions related to supply chain and technology solutions for order fulfillment and marketing execution. We are committed to an inclusive workplace that does not discriminate against race, nationality, religion, age, marital status, physical or mental disability, sexual orientation, gender, or gender identity. We believe in diversity and encourage any qualiﬁed individual to apply. We are an EEOC Employer.
+vZpva2YEN2

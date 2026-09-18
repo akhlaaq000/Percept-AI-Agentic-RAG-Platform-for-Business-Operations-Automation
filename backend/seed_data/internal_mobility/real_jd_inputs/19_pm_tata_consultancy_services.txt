@@ -1,0 +1,65 @@
+Job Title: Technical Product Manager
+Company: Tata Consultancy Services
+Location: Austin, TX
+Salary: $100,000 - $140,000 a year
+
+Key job responsibilities
+Lead a set of products to develop and execute the product roadmap using client's working backwards process, including identifying customer pain points and new opportunities
+Establish best practices to define, prioritize, and communicate product requirements to cross-functional teams using client's working backwards process
+Reinforce a team's ability to analyze emerging industry trends in Security & Loss prevention that can contribute to the long-term product strategy
+Work with multiple engineering teams to design and deliver high-quality software products that meet customer needs and business objectives
+Collaborate with user experience teams, data engineering, and solution architects to create intuitive and user-friendly interfaces for complex workflows
+Create foundational mechanisms to analyze user feedback and data to continuously improve product performance and user experience across the organization and suite of products
+Monitor the execution of projects in the portfolio, providing project progress to stakeholders when needed, identify and mitigating risks, and pushing for appropriate levels of quality to maintain the overall integrity of the project
+Work closely with various teams to ensure scalability and maintainability of the products
+Lead a set of products to develop and execute the product roadmap using Client's working backwards process, including identifying customer pain points and new opportunities
+Establish best practices to define, prioritize, and communicate product requirements to cross-functional teams using client's working backwards process
+Reinforce a team's ability to analyze emerging industry trends in Security & Loss prevention that can contribute to the long-term product strategy
+Work with multiple engineering teams to design and deliver high-quality software products that meet customer needs and business objectives
+Collaborate with user experience teams, data engineering, and solution architects to create intuitive and user-friendly interfaces for complex workflows
+Create foundational mechanisms to analyze user feedback and data to continuously improve product performance and user experience across the organization and suite of products
+Monitor the execution of projects in the portfolio, providing project progress to stakeholders when needed, identify and mitigating risks, and pushing for appropriate levels of quality to maintain the overall integrity of the project
+Work closely with various teams to ensure scalability and maintainability of the products
+leverage LLM /ML/ agentic AI technologies to solve business challenges
+Preferred:
+Degree or Certification:
+Bachelors Degree required
+KPI:
+Documentation
+Product Strategy
+Quality of Work
+Core responsibilities
+Customer obsession: Work backwards from the customer to identify their problems and create products and features that solve them.
+Product strategy: Define the product vision and roadmap, and create detailed requirement specifications.
+Technical leadership: Understand the core technologies of the product, communicate technical details effectively to both technical and no n-technical teams, and guide product development.
+Cross-functional collaboration: Partner closely with engineering, design, science, and other teams to bring products to life.
+Full lifecycle management: Manage the entire product lifecycle, from initial concept through launch, including developing marketing plans, building business models, and analyzing success metrics.
+Business and financial acumen: Analyze business impact, dive deep into metrics, and be responsible for revenue and adoption goals.
+Key qualifications and skills
+Technical experience: A strong technical background, such as software development or network development, is essential.
+Product management experience: Experience in full-cycle product management, especially for large-scale SaaS, PaaS, or IaaS products.
+Communication: The ability to write concisely and compellingly, and communicate effectively with all stakeholders.
+Strategic thinking: The ability to balance technical challenges with strategic goals and maintain a customer-obsessed mindset.
+Curiosity: A deep curiosity about technology and a drive to invent on behalf of the customer
+TCS Employee Benefits Summary:
+Discretionary Annual Incentive.
+Comprehensive Medical Coverage: Medical & Health, Dental & Vision, Disability Planning & Insurance, Pet Insurance Plans.
+Family Support: Maternal & Parental Leaves.
+Insurance Options: Auto & Home Insurance, Identity Theft Protection.
+Convenience & Professional Growth: Commuter Benefits & Certification & Training Reimbursement.
+Time Off: Vacation, Time Off, Sick Leave & Holidays.
+Legal & Financial Assistance: Legal Assistance, 401K Plan, Performance Bonus, College Fund, Student Loan Refinancing.
+#LI-SH2
+Salary Range-$100,000-$140,000 a year
+Location
+Austin, TX
+Job Function
+TECHNOLOGY
+Role
+Product Manager
+Job Id
+416346
+Desired Skills
+AWS | Java
+Salary Range
+$100,000-$140,000 a year
