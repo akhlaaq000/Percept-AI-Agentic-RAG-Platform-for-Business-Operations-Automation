@@ -97,21 +97,18 @@ async def lifespan(app: FastAPI):
         # get_connection()'s register_vector() needs it to merely connect.
         # Create it on a bare connection first; schema.sql (which repeats
         # CREATE EXTENSION IF NOT EXISTS) then applies cleanly below.
-        conn = get_connection(register_pgvector_types=False)
+        # autocommit is set at CONNECT time: register_vector() runs a query
+        # and psycopg2 refuses to flip autocommit inside a transaction.
+        conn = get_connection(register_pgvector_types=False, autocommit=True)
         try:
-            conn.autocommit = True
             with conn.cursor() as cur:
                 cur.execute("CREATE EXTENSION IF NOT EXISTS vector;")
             print("[AUTO_SETUP] Ensured pgvector extension.")
         finally:
             conn.close()
 
-        conn = get_connection()
+        conn = get_connection(autocommit=True)
         try:
-            # Set autocommit BEFORE any query — psycopg2 refuses to flip
-            # autocommit while a transaction is open, and plain connects
-            # lazily start one on the first statement (incl. the probe).
-            conn.autocommit = True
             with conn.cursor() as cur:
                 cur.execute(
                     "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'documents');"
