@@ -1,0 +1,60 @@
+Job Title: Full Stack Software Engineer
+Company: Strella
+Location: San Francisco, CA
+Salary: 
+
+About Strella
+
+Strella is transforming how businesses gather and use customer insights with AI-moderated interviews and real-time synthesis, delivering human insights in hours instead of weeks. Our mission is to make fast, high-quality customer insights accessible to every business. We are a venture-backed startup and we’re looking to grow our team significantly in 2025 - join us!
+
+We are seeking a Full Stack Software Engineer who embodies both technical excellence and a relentless drive to elevate our products. As one of our early engineers, you will play a large role in building our first customer-facing product.
+
+Key Responsibilities
+
+Develop and maintain high-quality frontend and backend software solutions.
+
+Take full ownership of projects, from conception to deployment, ensuring robustness, scalability, and minimal technical debt.
+
+Collaborate with cross-functional teams to translate needs into technical solutions.
+
+Proactively improve existing systems, anticipating high-value projects and executing them autonomously.
+
+You Are A Good Fit For This Role If
+
+You have a strong bias for speed and action. You ship high-quality products daily, independently resolving bugs and roadblocks
+
+You demonstrate exceptional proactivity in system and process improvements, autonomously executing high-value projects and delivering comprehensive solutions for large problems.
+
+You are knowledgeable about tools and strategies for quality product development, capable of independent project architecture with occasional support.
+
+You are a team player who isn’t afraid to work cross-functionally and exercise their product thinking skills
+
+You solve problems with first principles thinking and always come with solutions
+
+Qualifications
+
+Bachelor's/Master’s degree in Computer Science or a related field.
+
+3+ years of experience in full-stack development. Particularly, significant experience leading projects.
+
+Strong knowledge of CS fundamental concepts and web development
+
+Familiar with languages like JavaScript, Typescript, Node.js, React, REST APIs, PostgreSQL databases, Tailwind CSS, Vercel, GCP
+
+Highly comfortable with LLM prompt engineering in production software systems
+
+Proficiency in designing scalable, robust, and efficient software architectures. This includes making decisions about the overall structure of the application, selecting appropriate design patterns, and foreseeing potential future needs or changes.
+
+Strong problem-solving and communication skills.
+
+Benefits
+
+Competitive salary
+
+Health Insurance (Medical, Dental, Vision)
+
+Flexible PTO
+
+Comp
+
+Let’s talk

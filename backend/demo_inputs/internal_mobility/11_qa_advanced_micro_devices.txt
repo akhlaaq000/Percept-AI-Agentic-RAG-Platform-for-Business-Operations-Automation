@@ -1,0 +1,68 @@
+Job Title: Senior System Test Engineering Manager - Product Development Group
+Company: Advanced Micro Devices, Inc
+Location: Austin, TX 78735
+Salary: 
+
+Overview:
+
+WHAT YOU DO AT AMD CHANGES EVERYTHING
+
+At AMD, our mission is to build great products that accelerate next-generation computing experiences—from AI and data centers, to PCs, gaming and embedded systems. Grounded in a culture of innovation and collaboration, we believe real progress comes from bold ideas, human ingenuity and a shared passion to create something extraordinary. When you join AMD, you’ll discover the real differentiator is our culture. We push the limits of innovation to solve the world’s most important challenges—striving for execution excellence, while being direct, humble, collaborative, and inclusive of diverse perspectives. Join us as we shape the future of AI and beyond. Together, we advance your career.
+
+Responsibilities:
+
+THE ROLE:
+
+As a Senior System Test Engineering Manager within the Product Development Group, you will lead system test engineering efforts that enable AMD’s next‑generation accelerator products from early development through high‑volume manufacturing. This role is responsible for defining system‑level test strategy, driving execution across lab, manufacturing, and customer environments, and ensuring robust coverage for functionality, compatibility, and reliability.
+
+You will manage and mentor a team of system test engineers while working cross‑functionally with design, product engineering, operations, and business partners to ensure products meet quality, schedule, and customer expectations. This role combines technical leadership, people management, and strong execution ownership in a fast‑paced product development environment.
+
+THE PERSON:
+
+You are a collaborative and results‑driven engineering leader with a strong background in system test and product development. You balance technical depth with people leadership, are comfortable guiding teams through complex and ambiguous challenges, and communicate effectively with stakeholders at all levels. You take ownership, proactively remove obstacles, and are motivated by delivering high‑quality products to market through strong team execution.
+
+KEY RESPONSIBILITIES:
+
+Lead and manage a team of system test engineers supporting Instinct accelerator product development
+Define and execute system‑level test strategies spanning pre‑silicon planning, post‑silicon bring‑up, customer samples, and high‑volume manufacturing
+Drive alignment on test coverage, validation readiness, and quality metrics across lab, manufacturing, and customer environments
+Partner cross‑functionally with Design, Product Engineering, Operations, Supply Chain, Business, and Customer Engineering teams
+Oversee planning and execution for system test deliverables, schedules, and resource allocation
+Identify technical, schedule, and quality risks; drive mitigation plans and escalation as needed
+Communicate program and execution status, risks, and recommendations to senior and executive leadership
+Collaborate closely with globally distributed teams, including Asia‑based engineering and operations organizations
+Champion continuous improvement in test methodologies, tools, processes, and team execution
+
+PREFERRED EXPERIENCE:
+
+Experience leading system test or validation teams in semiconductor product development
+Strong background supporting GPU, accelerator, or complex SoC‑based products
+Experience with pre‑silicon planning, post‑silicon validation, customer sampling, and manufacturing readiness
+Proven people management experience, including hiring, mentoring, and performance development
+Experience working in complex, cross‑functional, and geographically distributed engineering environments
+Strong written and verbal communication skills, including presenting status and recommendations to senior or director‑level leadership
+Proficiency with standard Microsoft tools (e.g., Office, Windows OS) for planning, tracking, and reporting
+
+ACADEMIC CREDENTIALS:
+
+Bachelor’s or Master’s degree in Engineering or a related technical discipline preferred
+
+LOCATION:
+
+Austin, Texas
+
+This role is not eligible for visa sponsorship.
+
+#LI-LC2
+
+#LI-Hybrid
+
+Qualifications:
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.
