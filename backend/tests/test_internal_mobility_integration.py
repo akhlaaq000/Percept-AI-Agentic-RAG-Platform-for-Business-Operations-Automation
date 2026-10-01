@@ -350,6 +350,46 @@ def test_internal_mobility_logs_single_retrieval_decision_with_real_results(monk
     assert detail["top_score"] > 0
 
 
+def test_internal_mobility_empty_prefilter_logs_zero_candidate_decision(monkeypatch):
+    """An LLM-suggested department outside the corpus must NOT be silently
+    coerced to 'no constraint' — the strict pre-filter returns zero rows,
+    the semantic search is skipped, and exactly one retrieval decision
+    records the empty pool (rather than hiding it behind a broadened
+    search over every department)."""
+    _seed_engineer()  # an Engineering employee exists, but is filtered out
+
+    fake_llm = _fake_llm_scripted(
+        requirements={"department": "Crypto", "min_experience": 3,
+                      "query_text": "blockchain engineer"},
+        ranking_content=json.dumps({"summary": "No candidates.", "candidates": []}),
+    )
+    monkeypatch.setattr("app.verticals.internal_mobility.graph.call_llm", fake_llm)
+
+    output = run_internal_mobility_vertical(AgentRunInput(
+        vertical="internal_mobility",
+        trigger_type=TriggerType.UPLOAD,
+        input_payload={"text": "Head of Crypto — blockchain, Solidity, DeFi."},
+    ))
+
+    assert output.status == "escalated"
+    conn = get_connection()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT detail FROM agent_decisions "
+                "WHERE run_id = %s AND step_type = 'retrieval' ORDER BY created_at;",
+                (output.run_id,),
+            )
+            rows = cur.fetchall()
+    finally:
+        conn.close()
+    assert len(rows) == 1
+    detail = rows[0]["detail"]
+    assert detail["num_results"] == 0
+    assert detail["prefiltered_pool_size"] == 0
+    assert detail["department_filter"] == "Crypto"
+
+
 def test_internal_mobility_sanitizes_recipient_email(monkeypatch):
     emp_id = _seed_engineer(name="O'Brien  García")
 

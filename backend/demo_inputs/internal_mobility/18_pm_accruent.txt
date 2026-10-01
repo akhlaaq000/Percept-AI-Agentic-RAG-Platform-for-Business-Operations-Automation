@@ -1,0 +1,124 @@
+Job Title: Senior Product Manager
+Company: Accruent
+Location: Austin, TX
+Salary: $137,200 - $229,100 a year
+
+About Accruent
+
+Accruent is a global leader in intelligent asset, facilities, and real estate management software helping organizations connect their physical world to their digital future. Our platform powers mission critical operations for thousands of customers worldwide, from Fortune 500 enterprises to fast-growing disruptors.
+
+Backed by Fortive (NYSE: FTV), we combine the agility of a SaaS innovator with the scale, discipline, and financial backing of an established global enterprise. At Accruent, we’re building technology that enables customers to make smarter, faster, data-driven decisions, and we’re looking for bold, growth-minded leaders to help accelerate that growth.
+
+Position Overview
+
+We are seeking a Senior Product Manager to drive the strategic, product-led evolution of our core Property & Facility Management capabilities. In this role, you will not just manage a feature backlog; you will own a business outcome. You will bridge the gap between high-level commercial strategy and tactical execution, translating market insights into a high-growth product roadmap that prioritizes customer acquisition, seamless activation, and account expansion.
+
+As a "connective force" within the organization, you will optimize the end-to-end product lifecycle - collaborating with Design, Engineering, Marketing, and Sales to ship frictionless experiences that convert users into advocates. We are looking for a product leader who thinks like an entrepreneur, uses data as their compass, and treats the user experience as our primary engine for revenue growth.
+
+What You’ll Do
+
+Commercial Strategy & Growth Mapping
+
+Synthesize customer empathy with rigorous data analysis of market trends to uncover high-impact growth levers, monetization opportunities, and market whitespace.
+Define and evangelize an aspirational product vision for our Property & Space Management suite, aligning product health directly with business health (ARR, NRR, and LTV).
+Map and optimize customer acquisition, activation, retention, and referral funnels within Enterprise SaaS constructs to shorten the user's "time-to-value."
+
+Product-Led Discovery & Experimentation
+
+Spearhead a continuous discovery and rapid experimentation culture, utilizing A/B testing, user research, and behavioral analytics to ruthlessly optimize user journeys.
+Synthesize qualitative user feedback with quantitative behavioral data (via product analytics tools) to design frictionless user experiences and product-led expansion loops.
+Partner with Design and UX to co-create and prototype solutions that inherently encourage deeper product adoption and self-serve upsells.
+
+Growth-Oriented Roadmap & Delivery
+
+Translate commercial strategy into an outcome-driven (rather than feature-driven) roadmap that balances short-term growth wins with long-term scalability.
+Execute complex, high-stakes trade-off decisions, prioritizing speed-to-market and iterative value delivery without compromising solution quality.
+Maintain a high-velocity backlog characterized by precision-engineered epics & stories focused on driving specific user actions and business outcomes.
+
+Cross-Functional Execution & Alignment
+
+Work in lockstep with Engineering to translate complex user workflows into elegant, shippable code, maintaining a relentless focus on quality and continuous deployment.
+Socialize growth hypotheses, test results, and roadmap priorities across the organization, ensuring cross-functional stakeholders are unified on expected outcomes and commercial metrics.
+Take ultimate point of accountability for the adoption success, quality, and commercial impact of every product release.
+
+Go-To-Market (GTM) & Commercial Partnership
+
+Partner with Product Marketing, Growth Marketing, and Sales to architect compelling positioning, packaging, and in-app triggers that accelerate customer acquisition and win rates.
+Empower Sales and Customer Success teams with product intelligence and data-driven insights to help identify expansion, cross-sell, and upsell opportunities early.
+
+Oversee the transition from product delivery to market impact, ensuring high-quality launches and continuous product-market fit.
+
+What Success Looks Like
+Market Leadership: A compelling, differentiated product experience that establishes us as the undisputed "must-have" solution in the IWMS (Integrated Workspace Management Systems) and Employee Experience space.
+Growth Velocity: Sustained upward trends across core growth KPIs, specifically driving velocity in user activation, feature adoption, gross retention, and expansion revenue (NRR).
+Product-Led Excellence: A mature culture of experimentation where product optimizations are continuously validated by behavioral data and revenue impact.
+
+Organizational Trust: A unified cross-functional engine where Engineering, Design, and GTM teams operate with absolute clarity, shared purpose, and a collective growth mindset.
+
+What You Bring
+8+ years of progressive Product Management experience, with a proven track record of scaling B2B SaaS platforms (bonus points if you have explicitly worked in a PLG or hybrid-growth motion).
+A commercial mindset: You don't just ship features; you have a portfolio of successful product outcomes where you directly influenced revenue, retention, or customer acquisition metrics.
+Data fluency: Exceptional proficiency in leveraging complex data sets, behavioral analytics, and growth funnels to diagnose product health and pinpoint growth levers.
+Experimentation experience: Deep experience in user-centered discovery, moving from ideation to validated, high-conversion user experiences via rigorous A/B testing and MVP experimentation.
+Strong cross-functional leadership: The ability to navigate organizational complexity and align engineers, designers, growth marketers, and C-suite stakeholders around shared commercial goals.
+Technical comfort: Experience managing complex backlogs and roadmaps while maintaining a relentless focus on quality, scalability, and speed-to-market.
+Bachelor’s degree required; MBA or advanced degree preferred.
+
+What You Bring
+8+ years of progressive Product Management experience, with a proven track record of scaling B2B SaaS platforms.
+A portfolio of successful product outcomes where you led the journey from an abstract vision to a measurable market win.
+The ability to manage complex backlogs and roadmaps while maintaining a relentless focus on quality and speed-to-market.
+Deep experience in user-centered discovery, partnering with UX to move from ideation to validated, high-conversion user experiences via rigorous A/B testing.
+Proven success in defining positioning and launch strategies that drive real user adoption.
+Proficiency in leveraging complex data sets to diagnose product health, identify growth levers, and make high-stakes trade-off decisions.
+Hands-on experience building AI-powered features into products - Gen AI integrations, predictive analytics, or Agentic workflow automation — with concrete shipped examples.
+The ability to navigate organizational complexity and communicate clearly with both engineers and C-suite stakeholders.
+Bachelor’s degree required; MBA or advanced degree preferred.
+
+Preferred Qualifications
+Direct experience implementing or managing Product-Led Growth (PLG) strategies (e.g., self-serve trials, freemium models, in-app onboarding, or automated expansion triggers).
+Power-user familiarity with modern product analytics tools (e.g., Amplitude, Mixpanel, Pendo, Heap) and experimentation/engagement platforms (e.g., Optimizely, Gainsight).
+
+Background in enterprise SaaS, PropTech, or complex workflow-based B2B platforms.
+
+Ready to Build What’s Next?
+
+If you’re a growth-driven, commercially minded SaaS product leader who thrives on building, experimenting, scaling, and leading through data -join us. At Accruent, you won’t just manage a product line; you’ll scale a business.
+
+Fortive Corporation Overview
+
+Fortive's essential technology makes the world safer and more productive. We accelerate transformation in high-impact fields like workplace safety, build environments, and healthcare.
+
+We are a global industrial technology innovator with a startup spirit. Our forward-looking companies lead the way in healthcare sterilization, industrial safety, predictive maintenance, and other mission-critical solutions. We're a force for progress, working alongside our customers and partners to solve challenges on a global scale, from workplace safety in the most demanding conditions to advanced technologies that help providers focus on exceptional patient care.
+
+We are a diverse team 10,000 strong, united by a dynamic, inclusive culture and energized by limitless learning and growth. We use the proven Fortive Business System (FBS) to accelerate our positive impact.
+
+At Fortive, we believe in you. We believe in your potential—your ability to learn, grow, and make a difference.
+
+At Fortive, we believe in us. We believe in the power of people working together to solve problems no one could solve alone.
+
+At Fortive, we believe in growth. We're honest about what's working and what isn't, and we never stop improving and innovating.
+
+Fortive: For you, for us, for growth.
+
+About Accruent
+
+Personal development and becoming the best you is all about growth and exploring new skills and opportunities – both in and out of the office. At Accruent, we call this Grow Without Limits, and we’re proud to offer each of our employees the resources, coaching and support necessary to achieve Growth Without Limits in their personal and professional lives. Explore where the path takes you.
+
+Accruent is a leading provider of solutions for unifying the built environment —spanning real estate, physical and digital assets, and the integrated technology systems that connect and control them. Accruent continues to set new expectations for how organizations can use data to transform how they manage their facilities and assets. With U.S. headquarters in Austin, Texas, Accruent serves over 5,000 customers in a wide range of industries in more than 100 countries worldwide.
+
+We Are an Equal Opportunity Employer. Fortive Corporation and all Fortive Companies are proud to be equal opportunity employers. We value and encourage diversity and solicit applications from all qualified applicants without regard to race, color, national origin, religion, sex, age, marital status, disability, veteran status, sexual orientation, gender identity or expression, or other characteristics protected by law. Fortive and all Fortive Companies are also committed to providing reasonable accommodations for applicants with disabilities. Individuals who need a reasonable accommodation because of a disability for any part of the employment application process, please contact us at applyassistance@fortive.com.
+
+Bonus or Equity
+This position is also eligible for bonus as part of the total compensation package.
+
+Pay Range
+The salary range for this position (in local currency) is 137,200.00 - 229,100.00
+
+Personal development and becoming the best you is all about growth and exploring new skills and opportunities – both in and out of the office. At Accruent, we call this Grow Without Limits, and we’re proud to offer each of our employees the resources, coaching and support necessary to achieve Growth Without Limits in their personal and professional lives. Explore where the path takes you.
+
+Accruent is a leading provider of solutions for unifying the built environment —spanning real estate, physical and digital assets, and the integrated technology systems that connect and control them. Accruent continues to set new expectations for how organizations can use data to transform how they manage their facilities and assets. With U.S. headquarters in Austin, Texas, Accruent serves over 5,000 customers in a wide range of industries in more than 100 countries worldwide.
+
+We Are an Equal Opportunity Employer. Fortive Corporation and all Fortive Companies are proud to be equal opportunity employers. We value and encourage diversity and solicit applications from all qualified applicants without regard to race, color, national origin, religion, sex, age, marital status, disability, veteran status, sexual orientation, gender identity or expression, or other characteristics protected by law. Fortive and all Fortive Companies are also committed to providing reasonable accommodations for applicants with disabilities. Individuals who need a reasonable accommodation because of a disability for any part of the employment application process, please contact us at applyassistance@fortive.com.
+
+The salary range for this position (in local currency) is 137,200.00 - 229,100.00This position is also eligible for bonus as part of the total compensation package.

@@ -1,0 +1,78 @@
+Job Title: Software Engineer, Platform
+Company: David AI
+Location: San Francisco, CA
+Salary: $160,000 - $200,000 a year
+
+About David AI
+
+David AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.
+
+David AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.
+
+Our team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.
+
+About our Engineering team
+
+At David AI, our engineers build the pipelines, platforms, and models that transform raw audio into high-signal data for leading AI labs and enterprises. We're a tight-knit team of product engineers, infrastructure specialists, and machine learning experts focused on building the world’s first audio data research company.
+
+We move fast, own our work end-to-end, and ship to production daily. Our team designs real-time pipelines handling terabytes of speech data and deploys cutting-edge generative audio models.
+
+About this role
+
+As a Software Engineer, Platform at David AI, you’ll work across product surfaces to design clean APIs, build scalable services, and keep our systems performant under the weight of petabytes of audio data.
+
+In this role, you will
+
+Design, build, and maintain production-grade backend services that power everything from data collection to customer-facing insights.
+
+Own the architecture and performance of distributed systems that ingest, transform, and serve audio data at scale.
+
+Define and evolve internal APIs and service boundaries to support a growing set of ML and product features.
+
+Build resilient, observable, and easy-to-debug systems with strong performance characteristics.
+
+Collaborate with product, operations, and ML teams to rapidly iterate on new product + research ideas and ship fast.
+
+Your background looks like
+
+3+ years backend development building scalable APIs and services.
+
+Proficient with RESTful APIs, service interfaces, and database design (PostgreSQL, MySQL).
+
+Strong understanding of distributed systems and service-oriented architecture.
+
+Extensive cloud infrastructure and infrastructure-as-code experience.
+
+Proficient in profiling, debugging, and optimizing backend systems.
+
+Bonus points if you have
+
+Experience launching systems from ground up in high-growth environments (preferred).
+
+Familiarity with event-driven architectures, async processing, or large-scale data pipelines.
+
+Familiarity with CI/CD pipelines and DevOps best practices.
+
+Built scalable data pipelines that have facilitated large-scale event-driven workflows across large volumes of audio or video data.
+
+Scaled up inference and train compute for large scale workloads in a production setting.
+
+Some technologies we work with
+
+Next.js, TypeScript, TailwindCSS, Node.js, tRPC, PostgreSQL, AWS, Trigger.dev, WebRTC, FFmpeg.
+
+Benefits
+
+Unlimited PTO.
+
+Top-notch health, dental, and vision coverage with 100% coverage for most plans.
+
+FSA & HSA access.
+
+401k access.
+
+Meals 2x daily through DoorDash + snacks and beverages available at the office.
+
+Unlimited company-sponsored Barry’s classes.
+
+Compensation Range: $160K - $200K

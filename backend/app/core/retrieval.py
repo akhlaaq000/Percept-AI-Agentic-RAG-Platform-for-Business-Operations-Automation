@@ -40,6 +40,10 @@ def search_embeddings(
     conn = get_connection()
     try:
         with conn.cursor() as cur:
+            # ivfflat approximate index can miss rows when trained on an
+            # empty table (schema-creation time). Probe all lists so the
+            # search behaves exactly for any table size.
+            cur.execute("SET LOCAL ivfflat.probes = 100;")
             cur.execute(sql, params)
             return cur.fetchall()
     finally:

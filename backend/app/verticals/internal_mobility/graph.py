@@ -63,9 +63,13 @@ from app.schemas.agent_contract import (
 # @tool decorators).
 import app.verticals.internal_mobility.tools  # noqa: F401
 
-# Known departments in the synthetic corpus — the extraction prompt
-# constrains output to these so the structural pre-filter actually
-# matches employees.department values.
+# Known departments in the synthetic corpus — fed to the extraction
+# prompt so the LLM picks a department that actually exists in
+# employees.department. NOT a runtime filter: an LLM-suggested
+# department that isn't in the corpus must NOT be silently coerced to
+# "" (that would drop the structural pre-filter with no signal). It is
+# left as-is and the pre-filter query simply returns zero rows, which
+# the retrieve_node's no-candidates branch handles explicitly.
 KNOWN_DEPARTMENTS = ["Engineering", "Design", "Data Science"]
 
 
@@ -127,9 +131,11 @@ def extract_requirements(text: str) -> dict:
 
     try:
         parsed = json.loads(raw)
-        department = parsed.get("department") or ""
-        if department not in KNOWN_DEPARTMENTS:
-            department = ""
+        department = str(parsed.get("department") or "").strip()
+        # Deliberately NOT coerced to "" here: an LLM-suggested
+        # department outside the corpus must pass through so the
+        # pre-filter's zero-row branch (and its logged decision) can
+        # surface the miss rather than silently broadening results.
         min_experience = int(parsed.get("min_experience") or 0)
         query_text = str(parsed.get("query_text") or text).strip() or text
     except (json.JSONDecodeError, TypeError, ValueError):

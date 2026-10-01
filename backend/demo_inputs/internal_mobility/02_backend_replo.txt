@@ -1,0 +1,58 @@
+Job Title: Senior Backend Engineer
+Company: Replo
+Location: San Francisco, CA
+Salary: $200,000 - $500,000 a year
+
+About the role
+
+Hiring a senior backend engineer to join our team and focus on system architecture our most popular products.
+
+Things you'll be working on
+
+Architecting and implementing backend systems in Typescript/Node is the core of what you’ll be doing. Real examples include —
+
+Designing and building an ingestion pipeline for our analytics/insights products (> 99.99% uptime on Kafka, Clickhouse, Redis)
+
+Spiking on our CI/CD to improve stability
+
+Build out durable/distributed cart/hosting for our ecommerce product
+
+Deploying a multi-tenant NextJS app for shops in Cloudflare
+
+Mentoring junior engineers on best-practices
+
+Looking for someone who
+
+Can be in office 3-4 days/week in San Francisco
+
+Has deep knowledge in distributed systems and SOA — load balancers, databases, queuing, caching, HTTP, APIs, high-availability, fault tolerance, redundancy, at-least-two-of-everything
+
+Down to do full-stack work (including frontend even if it's not your main role)
+
+Is ALWAYS SHIPPING. We don't spend weeks planning features at Replo
+
+Has 4+ years of professional experience with production distributed systems, service oriented architecture
+
+Proficient in Typescript. If you have experience writing these systems in Python/Go/Java that’s cool too, as long as you’re willing to learn Typescript/Node — the learning curve on writing TS isn’t that high for high-caliber engineers. Experience or working knowledge of React is great too, but we can teach you that if we need to
+
+Has a product and customer-focused mindset
+
+Has experience being burned by deployment and maintenance issues. If you have a a strong opinion on how backend systems should be built, that’s good
+
+Values writing clean, maintainable software, including documentation (e.g. the code needs to be correct and run fast, but we’re the ones that have to read it and understand it)
+
+Is comfortable with ambiguity and defining software architecture patterns to solve customer pain points
+
+Bonus points if you
+
+Have started a company before
+
+Enjoy attending hackathons
+
+Worked at an early-stage (Series A or earlier) startup previously
+
+Have not wasted hours interview-prepping on Leetcode
+
+Have an eye for visual design (or past experience in product design, Figma, etc)
+
+Compensation Range: $200K - $500K

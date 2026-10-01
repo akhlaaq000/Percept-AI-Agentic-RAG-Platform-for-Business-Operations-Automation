@@ -1,0 +1,42 @@
+Job Title: Backend Engineer
+Company: Ketch
+Location: San Francisco, CA
+Salary: $100,000 - $130,000 a year
+
+Who we are
+We are an early-stage startup disrupting the data privacy and cybersecurity market. Our patented technology empowers businesses and software engineers with a deploy-once, comply-and-secure-everywhere framework for exerting perfect control over every scrap of responsibly gathered data. This intelligent and pervasive data fabric underpins our vision to move from rules to tools to ensure privacy is respected as an essential human right.
+
+‍What you will be doing at Ketch
+We are looking for a highly skilled backend engineer who is comfortable with building and running large scale systems in cloud native ways. You will be solving challenging problems while learning a great deal and having fun at the same time.
+
+What we are looking for
+Our ideal candidate is a technical expert that gets things done by using their smarts and whatever tools make sense for the job at hand. Someone who loves to stand on the shoulders of giants to solve new problems and thrives in a rapidly innovating space working with other smart people.
+
+This is a full-time, hybrid position based out of San Francisco, California
+
+Below is a detailed breakdown of responsibilities:
+Build solutions to solve our enterprise customers’ data privacy and security problems at scale
+Take ownership of what you build. Take pride in building it better and scaling it
+Develop server-side components primarily in Golang and interact with various data stores and processing pipelines
+Co-own a performing, fault-tolerant, highly secure microservice architecture and continuously evolve it
+Master data security and data protection techniques and put them into practice
+Work closely with stakeholders/customers to understand use cases and solutions end-to-end
+Collectively be responsible for the well-being of our SaaS production system - quality, performance, scalability, reliability and efficiency
+Invent and reinvent how we build, deploy and operate
+Keep abreast of technologies and tools. Embrace and contribute to open source communities
+Your tech friends would say you:
+Really know about scalable distributed systems
+Have built production systems and services in Golang (ideal) or Java/Python/Scala
+Have a deep understanding of domain driven data modelingHave built production services in cloud-native environment (AWS, GCP, Azure) and know where itʼs awesome and where it hurts
+Dead serious about tooling, best practices, automation - anything to improve DevEx
+Are a great communicator and collaborator
+Have dealt with complexities for mobile, web and mixed environments
+Really grok your CI/CD (Github Actions, etc), Database/Storage (Redis, Cassandra, DynamoDB, ScyllaDB, Postgres, ElasticSearch) and VCS (git/GitHub) tools
+Good at instrumenting, troubleshooting, performance tuning multi-tenant large scale Kubernetes deployments
+1-3 years of experience in software engineering
+The US Base Salary range for this full-time position is $100,000 - $130,000 + equity + benefits. Our salary ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position across all US locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+We are proud to be an equal opportunity workplace. Individuals seeking employment with us are considered equally and without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, or sexual orientation.
+
+We do not accept resumes from headhunters, placement agencies, or any 3rd parties. All submissions will be considered a gift and no fee will be due.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
